@@ -33,9 +33,12 @@ const Header = () => {
         <div className='pt-8 pb-7 items-center gap-x-3'>
           <Logo />
         </div>
+        {/* <div
+        className='flex items-center justify-between px-4'
+        > */}
         <div className='hidden lg:flex lg:items-center space-x-2 px-4'>
           <HeaderLinks />
-          <AuthLinks />
+          {/* <AuthLinks /> */}
         </div>
         <div className='px-4 block lg:hidden'>
           <MobileMenu />

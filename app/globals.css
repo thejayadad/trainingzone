@@ -3,13 +3,9 @@
 @tailwind utilities;
 
 body{overflow-x: hidden;}
-html,
-body,
-:root{
-  height: 100%;
-}
+
 @layer utilities {
-  .nav{
+  .nav {
     @apply relative ml-10 text-gray-600 font-mono font-extralight tracking-[1px] hover:text-gray-900 cursor-pointer
   }
   .nav::after{
@@ -18,4 +14,4 @@ body,
   .nav:hover::after{
     @apply w-[100%]
   }
-}
+} 
